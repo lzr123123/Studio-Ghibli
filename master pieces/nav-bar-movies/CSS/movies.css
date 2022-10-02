@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(107, 140, 165);
+}
+
+.link-bar {
+    position: fixed;
+    height: 30px;
+    top: 0;
+    width: 100%;
+}
+
+.categories {
+    display: inline;
+    float: left;
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:lightblue;
+    cursor: pointer;
+    position:relative;
+}
+
+.categories:hover {
+    background-color: blue;
+}
+
+.categories-link {
+    text-decoration: none;
+    color: white;
+}
+
+.categories-link:hover {
+    color: yellow;
+}
+
+.home {
+    display: inline;
+    float: right;
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #b8e6bf;
+    cursor: pointer;
+    position: relative;
+}
+
+.home:hover {
+    background-color: green;
+}
+
+.home-link {
+    text-decoration: none;
+    color: white;
+}
+
+.home-link:hover {
+    color: yellow;
+}
+
+.title-section {
+    color: white;
+    margin-top: 40px;
+    font-size: 45px;
+    font-family:monospace;
+    border-bottom: 4px solid white;
+}
+
+.movie-li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    width: 233px;
+    height: fit-content;
+    background-color:#170749;
+    border-radius: 5px;
+    color: black;
+}
+
+.content-section {
+    padding-top: 20px;
+    padding-left: 58px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.movie-castle {
+    height: 320px;
+    background-size: 100%;
+    background-image: url("../movie-inf-img/movies/castle.jpg");
+    transition: transform .2s;
+}
+
+.movie-castle:hover {
+    transform: scale(1.05);
+}
+
+.movie-龙猫 {
+    height: 320px;
+    background-size: 100%;
+    background-image: url("../movie-inf-img/movies/龙猫.jpeg");
+    transition: transform .2s;
+}
+
+.movie-龙猫:hover {
+    transform: scale(1.05);
+}
+
+.movie-魔女 {
+    height: 320px;
+    background-size: 100%;
+    background-image: url("../movie-inf-img/movies/魔女.jpg");
+    transition: transform .2s;
+}
+
+.movie-魔女:hover {
+    transform: scale(1.05);
+}
+
+.movie-侧耳倾听 {
+    height: 320px;
+    background-size: 100%;
+    background-image: url("../movie-inf-img/movies/侧耳倾听.jpg");
+    transition: transform .2s;
+}
+
+.movie-侧耳倾听:hover {
+    transform: scale(1.05);
+}
+
+.movie-公主 {
+    height: 320px;
+    background-size: 100%;
+    background-image: url("../movie-inf-img/movies/公主.jpg");
+    transition: transform .2s;
+}
+.movie-公主:hover {
+    transform: scale(1.05);
+}
+
+.movie-千 {
+    height: 320px;
+    background-size: 100%;
+    background-image: url("../movie-inf-img/movies/千.jpeg");
+    transition: transform .2s;
+}
+.movie-千:hover {
+    transform: scale(1.05);
+}
+
+.movie-哈尔滨 {
+    height: 320px;
+    background-size: 100%;
+    background-image: url("../movie-inf-img/movies/哈尔滨.jpg");
+    transition: transform .2s;
+}
+
+.movie-哈尔滨:hover {
+    transform: scale(1.05);
+}
+
+.movie-泼妞 {
+    height: 320px;
+    background-size: 100%;
+    background-image: url("../movie-inf-img/movies/泼妞.jpg");
+    transition: transform .2s;
+}
+
+.movie-泼妞:hover {
+    transform: scale(1.05);
+}
+
+ .movie-小人 {
+    height: 320px;
+    background-size: 100%;
+    background-image: url("../movie-inf-img/movies/小人.jpg");
+    transition: transform .2s;
+}
+
+.movie-小人:hover {
+    transform: scale(1.05);
+}
+
+.movie-起风 {
+    height: 320px;
+    background-size: 100%;
+    background-image: url("../movie-inf-img/movies/起风.jpg");
+    transition: transform .2s;
+}
+
+.movie-起风:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+/* MOVIE NAME */
+.movie-dec {
+    margin-top: 3px;
+    padding: 5px;
+    width: max-content;
+    text-align: left;
+}
+
+.movie-dec p {
+    color:rgb(157, 165, 172);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img-link {
+    text-decoration: none;
+    color: rgb(188, 199, 209);
+}
+
+.img-link:hover {
+    color: rgb(201, 7, 201);
+    text-decoration: underline;
+}
+
+/* MOVIE-INF */
+.movie-inf {
+    background-color:rgb(105, 105, 105);
+}
+
+
+
+
+
+.footer {
+    background-color: darkgrey;
+    padding: 5px;
+    height: 70px;
+    font-size: 20px;
+}
